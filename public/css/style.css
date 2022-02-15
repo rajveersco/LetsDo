@@ -1,0 +1,88 @@
+body, html{
+    height: 100vh;
+    margin: 0px;
+    overflow: hidden;
+    background-image: linear-gradient(117deg, #0c142a 1%, #2d2268 100%);
+}
+
+/*===== VAR-CSS ====*/
+:root {
+    --main-txt-color: #fff;
+    --primary-txt-color: #256AFE;
+    --secondary-txt-color: #8C8DA1
+}
+
+.box{
+    --box-background-image: linear-gradient(95deg, #3068ec 0%, #8b1cd1);
+    --box-background-color: #30315A;
+}
+
+/*===== BACKGROUND-OBJECT ====*/
+.bg-object{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.object{
+    width: 1806px;
+    height: 894px;
+}
+
+/*===== GRID ====*/
+.grid{
+display: grid;
+grid-template-columns: repeat(12, auto);
+grid-template-rows: 72px 750px 160px;
+column-gap: 16px;
+margin: 0px 140px;
+}
+
+/*===== HEADER-CONTAINER ====*/
+.container-h{
+grid-column: 2/ span 11;
+display: grid;
+justify-content: left;
+align-items: center;
+}
+
+div{
+background-color: slateblue;
+}
+
+/*===== HEADER-CONTAINER ====*/
+.logo{
+width:129px;
+height: 29px;
+}
+
+
+
+
+
+
+/*===== MOBILE ====*/
+
+@media screen and (max-width:900px){
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: 72px 750px 160px;
+    column-gap: 10px;
+    margin: 0px 36px;
+}
+.container-h{
+    grid-column: 1/ span 4;
+    display: grid;
+    justify-content: left;
+    align-items: center;
+}
+
+.logo{
+    width: 73px;
+    height: 17px;
+}
+}       
