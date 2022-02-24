@@ -5,14 +5,26 @@ body, html{
     margin: 0px;
     overflow: hidden;
     background-image: linear-gradient(117deg, #0c142a 1%, #2d2268 100%);
+    z-index: -1;
 }
 
 /*===== VAR-CSS ====*/
 :root {
+
+    /*===== COLORS ====*/
     --main-txt-color: #fff;
     --primary-txt-color: #256AFE;
-    --secondary-txt-color: #8C8DA1
+    --secondary-txt-color: #8C8DA1;
+
+    /*===== FONT & TYPOGRAPHY ====*/
+    --body-font:'Poppins', sans-serif;
+    --primary-font-size: 30px;
+    --secondary-font-size: 20px;
+    --mob-primary-font-size: 18px;
+    --mob-secondary-font-size: 14px;
+    --normal-weight: normal;
 }
+
 
 .box{
     --box-background-image: linear-gradient(95deg, #3068ec 0%, #8b1cd1);
@@ -27,17 +39,23 @@ body, html{
     display: grid;
     justify-content: center;
     align-items: center;
+    z-index: 0;
 }
 
 .object{
-    width: 1806px;
-    height: 894px;
+    width: 100vw;
+    height: 100vh;
+}
+
+/*===== Z-INDEX ====*/
+.zindex{
+    z-index: 1;
 }
 
 /*===== GRID ====*/
 .grid{
 display: grid;
-grid-template-columns: repeat(12, auto);
+grid-template-columns: repeat(12, minmax(auto, 1fr));
 grid-template-rows: 72px 750px 160px;
 column-gap: 16px;
 margin: 0px 140px;
@@ -48,31 +66,74 @@ margin: 0px 140px;
 grid-column: 2/ span 11;
 display: grid;
 justify-content: left;
-align-items: center;
+align-items: end;
 }
 
-div{
-background-color: slateblue;
-}
-
-/*===== HEADER-CONTAINER ====*/
+/*===== CHILD-LOGO ====*/
 .logo{
 width:129px;
 height: 29px;
 }
 
+/*===== TODO-LIST HEADER ====*/
 
+/*FONT FAMILY*/
+.container-dd{
+font-family: var(--body-font);
+}
+
+/*CONTENT*/
+.container-dd{
+    grid-column: 5/ span 4;
+}
+
+.child-day{
+    height: 176px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.margin{
+    margin: 0px;
+}
+
+.current{
+    font-size: var(--primary-font-size);
+    color: var(--main-txt-color);
+    font-weight: var(--normal-weight);
+}
+
+.day{
+    font-size: var(--primary-font-size);
+    color: var(--secondary-txt-color);
+    font-weight: var(--normal-weight);
+}
+
+.horizontal{
+    background-color: var(--primary-txt-color);
+    width: 3px;
+    height: 34px;
+    border-radius: 5px;
+    margin: 0 12px;
+}
 
 
 
 
 /*===== MOBILE ====*/
 
-@media screen and (max-width:900px){
+@media screen and (max-width:600px){
+
+
+.bg-object{
+    display: none;
+}
+
 .grid{
     display: grid;
-    grid-template-columns: repeat(4, auto);
-    grid-template-rows: 72px 750px 160px;
+    grid-template-columns: repeat(4, minmax(68px, 1fr));
+    grid-template-rows: 72px 458px 52px;
     column-gap: 10px;
     margin: 0px 36px;
 }
@@ -83,8 +144,55 @@ height: 29px;
     align-items: center;
 }
 
+/*===== CHILD-LOGO ====*/
 .logo{
     width: 73px;
     height: 17px;
 }
+
+/*===== TODO-LIST HEADER ====*/
+
+/*FONT FAMILY*/
+.container-dd{
+    font-family: var(--body-font);
+    }
+    
+    /*CONTENT*/
+    .container-dd{
+        grid-column: 1/ span 3;
+        grid-row: 2/ span 3;
+    }
+    
+    .child-day{
+        height: 82px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+    
+    .margin{
+        margin: 0px;
+    }
+    
+    .current{
+        font-size: var(--mob-primary-font-size);
+        color: var(--main-txt-color);
+        font-weight: var(--normal-weight);
+    }
+    
+    .day{
+        font-size: var(--mob-primary-font-size);
+        color: var(--secondary-txt-color);
+        font-weight: var(--normal-weight);
+    }
+    
+    .horizontal{
+        background-color: var(--primary-txt-color);
+        width: 2px;
+        height: 18px;
+        border-radius: 3px;
+        margin: 0 10px;
+    }
+
+    
 }       
