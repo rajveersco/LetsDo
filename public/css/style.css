@@ -432,7 +432,7 @@ border-radius: 5px;
     }
 
     .btncon{
-        top: 92.2%;
+        top: calc(100% - 51px);
         position: absolute;
         width: 100vw;
         height: 51px;
