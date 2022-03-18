@@ -16,7 +16,8 @@ Easiest way to achieve day-to-day task with visually appealing user interface.
 - 👆🏻 One click steady approach for tasks
 - 🪞 Visually appealing and well designed user experience
 - 📁 Straight forward design language with the support of design system
-
+<br />
+<br />
 
 ## Previews
 
@@ -24,7 +25,7 @@ Web layout
 <br />
 <img src="https://github.com/rajveersco/LetsDo/blob/master/Preview/HOME%402x.png">
 <img src="https://github.com/rajveersco/LetsDo/blob/master/Preview/Home%20%E2%80%93%202%402x.png">
-<hr>
+<br />
 
 Mobile layout
 <br />
@@ -44,7 +45,7 @@ Mobile layout
 | Poppin-regular | 18px (Primary-b mob) |
 | Poppin-light | 14px (Secondary-b mob) |
 
-
+<br />
 🩸 Brand Color
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
