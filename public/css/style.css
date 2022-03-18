@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 
 body, html{
+    width: 100vw;
     height: 100vh;
     margin: 0px;
     overflow: hidden;
@@ -285,7 +286,6 @@ border-radius: 5px;
 
 @media screen and (max-width:600px){
 
-
 .bg-object{
     display: none;
 }
@@ -411,6 +411,7 @@ border-radius: 5px;
     }
 
     .form-in input{
+        width: 100%;
         padding-left: 24px;
         float: left;
         grid-column: 1/ span 4;
@@ -456,11 +457,11 @@ border-radius: 5px;
         justify-content: center;
         align-items: center;
         transform: scale(1) rotateZ(0deg);
-        transition: all 2s cubic-bezier(0.34, 0.6, 0, 1.49);
+        transition: all 1.2s cubic-bezier(0.34, 0.6, 0, 1.49);
     }
     
     button:hover{
-        transform: scale(2) rotateZ(0deg);
+        transform: scale(1) rotateZ(0deg);
     }
     .icoadd{
         margin: 0px 8px 0px 0px;
