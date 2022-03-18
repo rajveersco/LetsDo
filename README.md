@@ -8,6 +8,8 @@ Easiest way to achieve day-to-day task with visually appealing user interface.
 
 - 🥷 [@rveedx](https://www.instagram.com/rveedx/) (Instagram)
 -  👨‍💻 [@rajveersco](https://www.linkedin.com/in/rajveersco/) (Linkedin)
+<br />
+ <br />
 
 ## Features
 
@@ -19,13 +21,17 @@ Easiest way to achieve day-to-day task with visually appealing user interface.
 ## Previews
 
 Web layout
+<br />
 <img src="https://github.com/rajveersco/LetsDo/blob/master/Preview/HOME%402x.png">
 <img src="https://github.com/rajveersco/LetsDo/blob/master/Preview/Home%20%E2%80%93%202%402x.png">
 <hr>
 
 Mobile layout
+<br />
 <img src="https://github.com/rajveersco/LetsDo/blob/master/Preview/Mobile%201%402x.png">
 <img src="https://github.com/rajveersco/LetsDo/blob/master/Preview/Mobile%202%402x.png">
+<br />
+<br />
 
 ## Design Documentation
 
