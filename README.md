@@ -19,12 +19,12 @@ Easiest way to achieve day-to-day task with visually appealing user interface.
 ## Previews
 
 Web layout
-<img src="">
-<img src="">
+<img src="https://github.com/rajveersco/LetsDo/blob/master/Preview/HOME%402x.png">
+<img src="https://github.com/rajveersco/LetsDo/blob/master/Preview/Home%20%E2%80%93%202%402x.png">
 
 Mobile layout
-<img src="">
-<img src="">
+<img src="https://github.com/rajveersco/LetsDo/blob/master/Preview/Mobile%201%402x.png">
+<img src="https://github.com/rajveersco/LetsDo/blob/master/Preview/Mobile%202%402x.png">
 
 ## Design Documentation
 
@@ -48,5 +48,5 @@ Mobile layout
 | Secondary-btn| Clayblue #C2D6FF |
 
 
-
+Thanks a lot to reviews this one!
 
