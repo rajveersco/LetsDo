@@ -3,8 +3,10 @@
 const express= require("express");
 const bodyParser= require("body-parser");
 const res = require("express/lib/response");
+const { all } = require("express/lib/application");
 
 const app= express();
+var items=[];
 
 app.set('view engine', 'ejs');
 
@@ -22,8 +24,15 @@ app.get("/", function(req, res){
 var day= today.toLocaleDateString("en-US", options);
 
 res.render("list", {
-    kindofDay:day
+    kindofDay:day, newlItems : items
 });
+
+});
+
+app.post("/", function(req, res){
+     var item = req.body.newItem;
+     items.push(item);
+    res.redirect("/");
 
 });
 

@@ -31,10 +31,32 @@
              <h1 class='current margin'>Today's</h1>
              <div class='horizontal'></div>
              <h1 class='day margin'><%=kindofDay%></h1>
-          <div>
-      </section>
+          </div>
 
-     <span class='box'></span>
+            <div class='box'>
+                <div class='child-day1 scroll-con'>  
+                    <% for(var i=0; i<newlItems.length; i++){ %>
+                        <p class='p1'> <input class='checkbox-in' id='check' type='checkbox' name='checkbox'>
+                            <label for='check'><%=newlItems[i] %></label>
+                        </p>
+                   <% } %>
+                    </div>
+
+                <!--===== TODOLIST-INPUT & BUTTON =====-->
+                <form class='form-in' action='/' method='post'>
+                    <input type='text' name='newItem' placeholder='What&apos;s on your mind?' autocomplete='off'>
+                    <div class='btncon'>
+                    <button type='submit' name='button'>
+                        <div class='contb'>
+                            <img class='icoadd' src='/public/Icon/Group 3597.svg'>
+                        Add new
+                        </div>
+                    </button>
+                    </div>
+                </form>
+                
+            </div>
+      </section>
     </main>
 </body>
 </html>
