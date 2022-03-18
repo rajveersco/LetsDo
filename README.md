@@ -46,13 +46,15 @@ Mobile layout
 | Poppin-light | 14px (Secondary-b mob) |
 
 <br />
+
 🩸 Brand Color
+
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
 | Primary-brand | Blue #256AFE |
 | Primary-brand | Purple #8B1CD1 |
-| Primary-btn | linear-gradient(95deg, #3068ec 0%, #8b1cd1) |
+| Primary-btn   | linear-gradient(95deg, #3068ec 0%, #8b1cd1) |
 | Secondary-btn | Red #EF3461 |
-| Secondary-btn| Clayblue #C2D6FF |
+| Secondary-btn | Clayblue #C2D6FF |
 
 
