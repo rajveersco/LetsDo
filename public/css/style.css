@@ -1,13 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 
-body, html{
-    height: 100vh;
-    margin: 0px;
-    overflow: hidden;
-    background-image: linear-gradient(117deg, #0c142a 1%, #2d2268 100%);
-    z-index: -1;
-}
-
 /*===== VAR-CSS ====*/
 :root {
 
@@ -32,6 +24,17 @@ body, html{
     --box-input-color: #353362;
     --box-border-color: #C2D6FF;
     --box-border-active-color: #8b1cd1;
+}
+
+@media screen and (min-width:602px){
+
+body, html{
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    overflow: hidden;
+    background-image: linear-gradient(117deg, #0c142a 1%, #2d2268 100%);
+    z-index: -1;
 }
 
 /*===== BACKGROUND-OBJECT ====*/
@@ -280,11 +283,20 @@ border-radius: 5px;
     overflow-y: scroll;
     transform: scale(1) rotateZ(0deg);
 }
+}
 
 /*===== MOBILE ====*/
 
 @media screen and (max-width:600px){
 
+    body, html{
+        width: 100vw;
+        height: 100vh;
+        margin: 0px;
+        overflow: hidden;
+        background-image: linear-gradient(117deg, #0c142a 1%, #2d2268 100%);
+        z-index: -1;
+    }
 
 .bg-object{
     display: none;
@@ -411,6 +423,7 @@ border-radius: 5px;
     }
 
     .form-in input{
+        width: 100%;
         padding-left: 24px;
         float: left;
         grid-column: 1/ span 4;
@@ -452,7 +465,7 @@ border-radius: 5px;
         color: var(--box-border-color);
         display: flex;
         float:none;
-        position: relative;
+        position: fixed;
         justify-content: center;
         align-items: center;
         transform: scale(1) rotateZ(0deg);
