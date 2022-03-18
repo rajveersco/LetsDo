@@ -24,6 +24,7 @@ Web layout
 
 Mobile layout
 <img src="https://github.com/rajveersco/LetsDo/blob/master/Preview/Mobile%201%402x.png">
+<hr>
 <img src="https://github.com/rajveersco/LetsDo/blob/master/Preview/Mobile%202%402x.png">
 
 ## Design Documentation
@@ -47,6 +48,7 @@ Mobile layout
 | Secondary-btn | Red #EF3461 |
 | Secondary-btn| Clayblue #C2D6FF |
 
-
+<hr>
+<hr>
 Thanks a lot to reviews this one!
 
