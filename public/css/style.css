@@ -394,6 +394,10 @@ border-radius: 5px;
         cursor: pointer;
     }
 
+    input{
+        position: relative;
+    }
+
     input[type="checkbox"]{
         appearance: none;
         height: 24px;
