@@ -1,8 +1,10 @@
 
 <img src="https://github.com/rajveersco/LetsDo/blob/master/Preview/Group%203599%402x.png">
-<hr>
-Easiest way to achieve day-to-day task with visually appealing user interface.
 
+Easiest way to achieve day-to-day task with visually appealing user interface.
+<br />
+<br />
+<br />
 
 ## Author
 
