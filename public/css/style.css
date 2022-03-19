@@ -290,14 +290,19 @@ border-radius: 5px;
     display: none;
 }
 
+.object{
+    display: none;
+}
+
 .grid{
     display: grid;
-    grid-template-columns: repeat(4, minmax(68px, 1fr));
-    grid-template-rows: 72px 458px 52px;
+    grid-template-columns: none;
+    grid-template-rows: none;
     column-gap: 10px;
     margin: 0px 36px;
 }
 .container-h{
+    height: 72px;
     grid-column: 1/ span 4;
     display: grid;
     justify-content: left;
